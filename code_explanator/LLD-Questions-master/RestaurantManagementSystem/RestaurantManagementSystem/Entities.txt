@@ -1,0 +1,52 @@
+﻿Restaurant
+	String Name;
+	List<Branch> branches;
+Branch branch
+	int BranchId;
+	String branchName;
+	String Address;
+	List<Table> tables;
+	List<Waiters> Waiters;
+	Receptionist receptionist;
+	List<Reservation> reservations;
+	Menu menu;
+Table
+	int TableNumber;
+Menu
+	List<MenuSection> menuSections;
+MenuSection
+	String sectionName;
+	List<MenuItem> menuItems;
+MenuItem
+	int Id;
+	string Item;
+	int price;
+
+
+Customer
+	int Id;
+	String name;
+Staff
+	int id;
+	String name;
+	StaffEnum;
+	
+StaffEnum
+	Receptionist = 1;
+	Waiter = 1;
+
+Reservation
+	ReservetaionStatusEnum ReservationStatus;
+	DateTime dateTime;
+	Customer customer;
+	Order order;
+	Waiter waiter;
+	Table table;
+Order
+	int id;
+	int Total;
+	Dictionary<MenuItem,int> menuitems;
+	Payment payment;
+
+
+	

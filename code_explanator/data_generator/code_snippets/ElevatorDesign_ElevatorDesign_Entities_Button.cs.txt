@@ -1,0 +1,14 @@
+// Original Path: code_explanator/LLD-Questions-master/ElevatorDesign/ElevatorDesign/Entities/Button.cs
+
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ElevatorDesign.Entities
+{
+    public abstract class Button
+    {
+    }
+}

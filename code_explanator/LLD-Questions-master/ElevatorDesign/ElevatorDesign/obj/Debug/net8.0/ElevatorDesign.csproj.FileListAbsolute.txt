@@ -1,0 +1,15 @@
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.GeneratedMSBuildEditorConfig.editorconfig
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.AssemblyInfoInputs.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.AssemblyInfo.cs
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.csproj.CoreCompileInputs.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.sourcelink.json
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\bin\Debug\net8.0\ElevatorDesign.exe
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\bin\Debug\net8.0\ElevatorDesign.deps.json
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\bin\Debug\net8.0\ElevatorDesign.runtimeconfig.json
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\bin\Debug\net8.0\ElevatorDesign.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\bin\Debug\net8.0\ElevatorDesign.pdb
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\refint\ElevatorDesign.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.pdb
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ElevatorDesign.genruntimeconfig.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ElevatorDesign\ElevatorDesign\obj\Debug\net8.0\ref\ElevatorDesign.dll

@@ -1,0 +1,14 @@
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\bin\Debug\net8.0\LoggingFramework.exe
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\bin\Debug\net8.0\LoggingFramework.deps.json
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\bin\Debug\net8.0\LoggingFramework.runtimeconfig.json
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\bin\Debug\net8.0\LoggingFramework.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\bin\Debug\net8.0\LoggingFramework.pdb
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\LoggingFramework.GeneratedMSBuildEditorConfig.editorconfig
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\LoggingFramework.AssemblyInfoInputs.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\LoggingFramework.AssemblyInfo.cs
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\LoggingFramework.csproj.CoreCompileInputs.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\LoggingFramework.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\refint\LoggingFramework.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\LoggingFramework.pdb
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\LoggingFramework.genruntimeconfig.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\LoggingFramework\LoggingFramework\obj\Debug\net8.0\ref\LoggingFramework.dll

@@ -1,0 +1,5264 @@
+[
+  {
+    "minutes": 0,
+    "seconds": 0,
+    "transcript": "[Music]",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 0,
+    "transcript": "translation it's done with a transform",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 3,
+    "transcript": "ER",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 5,
+    "transcript": "stat Quest",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 7,
+    "transcript": "hello I'm Josh starmer and welcome to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 10,
+    "transcript": "statquest today we're going to talk",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 13,
+    "transcript": "about Transformer neural networks and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 15,
+    "transcript": "they're going to be clearly explained",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 17,
+    "transcript": "Transformers are more fun when you build",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 21,
+    "transcript": "them in the cloud with lightning",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 24,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 25,
+    "transcript": "right now people are going bonkers about",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 28,
+    "transcript": "something called chat GPT for example",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 32,
+    "transcript": "our friend statsquatch might type",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 35,
+    "transcript": "something into chat GPT like",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 38,
+    "transcript": "right and awesome song in the style of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 42,
+    "transcript": "statquest",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 44,
+    "transcript": "translation it's done with a transform",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 47,
+    "transcript": "ER",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 49,
+    "transcript": "anyway there's a lot to be said about",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 52,
+    "transcript": "how chat GPT works but fundamentally it",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 55,
+    "transcript": "is based on something called a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 57,
+    "transcript": "Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 0,
+    "seconds": 58,
+    "transcript": "so in this stat Quest we're going to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 1,
+    "transcript": "show you how a Transformer works one",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 4,
+    "transcript": "step at a time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 6,
+    "transcript": "specifically we're going to focus on how",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 8,
+    "transcript": "a Transformer neural network can",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 10,
+    "transcript": "translate a simple English sentence",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 13,
+    "transcript": "let's go into Spanish vamos",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 17,
+    "transcript": "now since a Transformer is a type of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 20,
+    "transcript": "neural network and neural networks",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 22,
+    "transcript": "usually only have numbers for input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 24,
+    "transcript": "values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 25,
+    "transcript": "the first thing we need to do is find a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 28,
+    "transcript": "way to turn the input and output words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 30,
+    "transcript": "into numbers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 32,
+    "transcript": "there are a lot of ways to convert words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 35,
+    "transcript": "into numbers but for neural networks one",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 38,
+    "transcript": "of the most commonly used methods is",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 40,
+    "transcript": "called word embedding the main idea of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 43,
+    "transcript": "word embedding is to use a relatively",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 45,
+    "transcript": "simple neural network that has one input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 48,
+    "transcript": "for every word and symbol in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 50,
+    "transcript": "vocabulary that you want to use in this",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 54,
+    "transcript": "case we have a super simple vocabulary",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 56,
+    "transcript": "that allows us to input short phrases",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 1,
+    "seconds": 59,
+    "transcript": "like let's go and to go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 2,
+    "transcript": "and we have an input for this symbol EOS",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 5,
+    "transcript": "which stands for end of sentence or end",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 8,
+    "transcript": "of sequence because the vocabulary can",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 11,
+    "transcript": "be a mix of words word fragments and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 13,
+    "transcript": "symbols we call each input a token",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 17,
+    "transcript": "the inputs are then connected to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 19,
+    "transcript": "something called an activation function",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 21,
+    "transcript": "and in this example we have two",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 23,
+    "transcript": "activation functions",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 25,
+    "transcript": "and each connection multiplies the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 28,
+    "transcript": "value by something called a weight",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 30,
+    "transcript": "hey Josh where do these numbers come",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 33,
+    "transcript": "from",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 34,
+    "transcript": "great question Squatch and we'll answer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 37,
+    "transcript": "it in just a bit",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 38,
+    "transcript": "for now let's just see how we convert",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 41,
+    "transcript": "the word let's into numbers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 43,
+    "transcript": "first we put a 1 into the input for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 46,
+    "transcript": "let's and then put zeros into all of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 49,
+    "transcript": "other inputs",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 51,
+    "transcript": "now we multiply the inputs by their",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 53,
+    "transcript": "weights on the connections to the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 55,
+    "transcript": "activation functions",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 2,
+    "seconds": 57,
+    "transcript": "for example the input for let's is one",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 0,
+    "transcript": "so we multiply 1.87 by 1 to get 1.87",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 5,
+    "transcript": "going to the activation function on the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 7,
+    "transcript": "left and we multiply 0.09 by 1 to get",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 12,
+    "transcript": "0.09 going to the activation function on",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 16,
+    "transcript": "the right",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 17,
+    "transcript": "in contrast if the input value for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 20,
+    "transcript": "word 2 is 0",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 22,
+    "transcript": "then we multiply negative 1.45 by 0 to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 27,
+    "transcript": "get 0 going to the activation function",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 29,
+    "transcript": "on the left",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 30,
+    "transcript": "and we multiply 1.50 by 0 to get 0 going",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 34,
+    "transcript": "to the activation function on the right",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 37,
+    "transcript": "in other words when an input value is 0",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 40,
+    "transcript": "then it only sends zeros to the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 43,
+    "transcript": "activation functions and that means to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 46,
+    "transcript": "go and the EOS symbol all just send",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 50,
+    "transcript": "zeros to the activation functions",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 52,
+    "transcript": "and only the weight values for let's end",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 55,
+    "transcript": "up at the activation functions because",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 3,
+    "seconds": 57,
+    "transcript": "its input value is 1.",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 0,
+    "transcript": "so in this case 1.87 goes to the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 4,
+    "transcript": "activation function on the left",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 6,
+    "transcript": "and 0.09 goes to the activation function",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 10,
+    "transcript": "on the right",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 12,
+    "transcript": "in this example the activation functions",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 14,
+    "transcript": "themselves are just identity functions",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 17,
+    "transcript": "meaning the output values are the same",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 19,
+    "transcript": "as the input values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 21,
+    "transcript": "in other words if the input value or",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 24,
+    "transcript": "x-axis coordinate for the activation",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 26,
+    "transcript": "function on the left is 1.87 then the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 30,
+    "transcript": "output value the y-axis coordinate will",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 33,
+    "transcript": "also be 1.87",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 36,
+    "transcript": "likewise because the input to the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 38,
+    "transcript": "activation function on the right is 0.09",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 42,
+    "transcript": "the output is also 0.09",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 46,
+    "transcript": "thus these output values 1.87 and 0.09",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 50,
+    "transcript": "are the numbers that represent the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 53,
+    "transcript": "leads bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 55,
+    "transcript": "likewise if we want to convert the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 4,
+    "seconds": 58,
+    "transcript": "go into numbers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 0,
+    "transcript": "we set the input value for go to 1. and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 4,
+    "transcript": "all of the other inputs to zero",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 7,
+    "transcript": "and we end up with negative 0.78 and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 11,
+    "transcript": "0.27 as the numbers that represent the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 13,
+    "transcript": "word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 15,
+    "transcript": "and that is how we use word embedding to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 18,
+    "transcript": "convert our input phrase let's go into",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 21,
+    "transcript": "numbers bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 24,
+    "transcript": "note there is a lot more to say about",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 26,
+    "transcript": "word embedding so if you're interested",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 28,
+    "transcript": "check out the quest",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 30,
+    "transcript": "also note before we move on I want to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 33,
+    "transcript": "point out two things",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 35,
+    "transcript": "first we reuse the same word embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 38,
+    "transcript": "Network for each input word or symbol",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 41,
+    "transcript": "in other words the weights in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 43,
+    "transcript": "network for let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 45,
+    "transcript": "are the exact same as the weights in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 47,
+    "transcript": "network for go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 49,
+    "transcript": "this means that regardless of how long",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 51,
+    "transcript": "the input sentence is we just copy and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 54,
+    "transcript": "use the exact same word embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 56,
+    "transcript": "Network for each word or symbol",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 5,
+    "seconds": 59,
+    "transcript": "and this gives us flexibility to handle",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 1,
+    "transcript": "input sentences with different lengths",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 4,
+    "transcript": "the second thing I want to mention is",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 6,
+    "transcript": "that all of these weights and all of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 8,
+    "transcript": "other weights we're going to talk about",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 10,
+    "transcript": "in this Quest are determined using",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 12,
+    "transcript": "something called back propagation",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 15,
+    "transcript": "to get a sense of what back propagation",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 17,
+    "transcript": "does let's imagine we had this data and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 20,
+    "transcript": "we wanted to fit a line to it",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 23,
+    "transcript": "back propagation would start with a line",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 25,
+    "transcript": "that has a random value for the y-axis",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 28,
+    "transcript": "intercept and a random value for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 31,
+    "transcript": "slope",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 31,
+    "transcript": "and then using an iterative process back",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 35,
+    "transcript": "propagation would change the y-axis",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 37,
+    "transcript": "intercept and slope one step at a time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 40,
+    "transcript": "until it found the optimal values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 43,
+    "transcript": "likewise in the context of neural",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 46,
+    "transcript": "networks each weight starts out as a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 49,
+    "transcript": "random number",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 50,
+    "transcript": "but when we train the Transformer with",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 53,
+    "transcript": "English phrases and known Spanish",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 55,
+    "transcript": "translations",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 56,
+    "transcript": "back propagation optimizes these values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 6,
+    "seconds": 59,
+    "transcript": "one step at a time and results in these",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 2,
+    "transcript": "final weights",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 4,
+    "transcript": "also just to be clear the process of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 7,
+    "transcript": "optimizing the weights is also called",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 9,
+    "transcript": "training bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 11,
+    "transcript": "note there is a lot more to be said",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 14,
+    "transcript": "about training and back propagation so",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 16,
+    "transcript": "if you're interested check out the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 18,
+    "transcript": "quests",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 19,
+    "transcript": "now because the word embedding networks",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 22,
+    "transcript": "are taking up the whole screen let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 24,
+    "transcript": "shrink them down and put them in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 26,
+    "transcript": "corner okay and now that we know how to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 29,
+    "transcript": "convert words into numbers let's talk",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 32,
+    "transcript": "about word order",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 34,
+    "transcript": "for example if Norm said Squatch eats",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 37,
+    "transcript": "pizza then squash might say yum",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 43,
+    "transcript": "in contrast if Norm said Pizza eats",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 47,
+    "transcript": "squash then squash might say yikes",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 52,
+    "transcript": "so these two phrases",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 54,
+    "transcript": "Squatch eats Pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 7,
+    "seconds": 56,
+    "transcript": "and pizza eats squash use the exact same",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 0,
+    "transcript": "words but have very different meanings",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 3,
+    "transcript": "so keeping track of word order is super",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 6,
+    "transcript": "important so let's talk about positional",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 9,
+    "transcript": "encoding which is a technique that",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 11,
+    "transcript": "Transformers use to keep track of word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 13,
+    "transcript": "order",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 14,
+    "transcript": "we'll start by showing how to add",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 16,
+    "transcript": "positional encoding to the first phrase",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 18,
+    "transcript": "Squatch eats Pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 21,
+    "transcript": "note there are a bunch of ways to do",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 23,
+    "transcript": "positional encoding but we're just going",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 26,
+    "transcript": "to talk about one popular method",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 28,
+    "transcript": "that said the first thing we do is",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 31,
+    "transcript": "convert the words squash eats pizza into",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 34,
+    "transcript": "numbers using word embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 36,
+    "transcript": "in this example we've got a new",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 38,
+    "transcript": "vocabulary and we're creating four word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 40,
+    "transcript": "embedding values per word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 43,
+    "transcript": "however in practice people often create",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 46,
+    "transcript": "hundreds or even thousands of embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 48,
+    "transcript": "values per word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 50,
+    "transcript": "now we add a set of numbers that",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 52,
+    "transcript": "correspond to word order to the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 54,
+    "transcript": "embedding values for each word hey Josh",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 8,
+    "seconds": 58,
+    "transcript": "where do the numbers that correspond to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 0,
+    "transcript": "word order come from",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 2,
+    "transcript": "in this case the numbers that represent",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 4,
+    "transcript": "the word order come from a sequence of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 7,
+    "transcript": "alternating sine and cosine squiggles",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 10,
+    "transcript": "each squiggle gives a specific position",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 12,
+    "transcript": "values for each word's embeddings",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 15,
+    "transcript": "for example the y-axis values on the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 18,
+    "transcript": "green squiggle give us position encoding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 20,
+    "transcript": "values for the first embeddings for each",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 23,
+    "transcript": "word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 24,
+    "transcript": "specifically for the first word which",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 27,
+    "transcript": "has an x-axis coordinate all the way to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 29,
+    "transcript": "the left of the green squiggle the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 32,
+    "transcript": "position value for the first embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 34,
+    "transcript": "is the y-axis coordinate zero",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 37,
+    "transcript": "the position value for the second",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 39,
+    "transcript": "embedding comes from the orange squiggle",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 42,
+    "transcript": "and the y-axis coordinate on the orange",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 44,
+    "transcript": "squiggle that corresponds to the first",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 46,
+    "transcript": "word is one",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 48,
+    "transcript": "likewise the blue squiggle which is more",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 51,
+    "transcript": "spread out than the first two squiggles",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 53,
+    "transcript": "gives us the position value for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 56,
+    "transcript": "third embedding value which for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 9,
+    "seconds": 58,
+    "transcript": "first word is zero",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 0,
+    "transcript": "lastly the red squiggle gives us the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 3,
+    "transcript": "position value for the fourth embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 5,
+    "transcript": "which for the first word is one",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 9,
+    "transcript": "thus the position values for the first",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 11,
+    "transcript": "word come from the corresponding y-axis",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 14,
+    "transcript": "coordinates on the squiggles",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 16,
+    "transcript": "now to get the position values for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 18,
+    "transcript": "second word we simply use the y-axis",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 21,
+    "transcript": "coordinates on the squiggles that",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 23,
+    "transcript": "correspond to the x-axis coordinate for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 25,
+    "transcript": "the second word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 27,
+    "transcript": "lastly to get the position values for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 30,
+    "transcript": "the third word we use the y-axis",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 33,
+    "transcript": "coordinates on the squiggles that",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 34,
+    "transcript": "correspond to the x-axis coordinate for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 37,
+    "transcript": "the third word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 38,
+    "transcript": "note because the sine and cosine",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 41,
+    "transcript": "squiggles are repetitive it's possible",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 43,
+    "transcript": "that two words might get the same",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 45,
+    "transcript": "position or y-axis values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 48,
+    "transcript": "for example the second and third words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 51,
+    "transcript": "both got negative 0.9 for the first",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 54,
+    "transcript": "position value",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 55,
+    "transcript": "however because the squiggles get wider",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 10,
+    "seconds": 58,
+    "transcript": "for larger embedding positions and the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 1,
+    "transcript": "more embedding values we have then the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 3,
+    "transcript": "wider the squiggles get",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 5,
+    "transcript": "then even with a repeat value here and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 8,
+    "transcript": "there we end up with a unique sequence",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 10,
+    "transcript": "of position values for each word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 13,
+    "transcript": "thus each input word ends up with a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 16,
+    "transcript": "unique sequence of position values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 19,
+    "transcript": "now all we have to do is add the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 21,
+    "transcript": "position values to the embedding values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 23,
+    "transcript": "and we end up with the word embeddings",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 25,
+    "transcript": "plus positional encoding for the whole",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 28,
+    "transcript": "sentence Squatch eats Pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 31,
+    "transcript": "yum",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 33,
+    "transcript": "note if we reverse the order of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 36,
+    "transcript": "input words to be Pizza eats squash then",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 40,
+    "transcript": "the embeddings for the first and third",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 42,
+    "transcript": "words get swapped but the positional",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 45,
+    "transcript": "values for the first second and third",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 47,
+    "transcript": "word stay the same and when we add the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 51,
+    "transcript": "positional values to the embeddings",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 53,
+    "transcript": "we end up with new positional encoding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 55,
+    "transcript": "for the first and third words and the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 11,
+    "seconds": 58,
+    "transcript": "second word since it didn't move stays",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 1,
+    "transcript": "the same",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 2,
+    "transcript": "thus positional encoding allows a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 5,
+    "transcript": "Transformer to keep track of word order",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 7,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 10,
+    "transcript": "now let's go back to our simple example",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 12,
+    "transcript": "where we are just trying to translate",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 14,
+    "transcript": "the English sentence let's go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 16,
+    "transcript": "and add position values to the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 19,
+    "transcript": "embeddings",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 20,
+    "transcript": "the first embedding for the first word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 22,
+    "transcript": "Let's gets zero and the second embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 25,
+    "transcript": "gets one and the first embedding for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 28,
+    "transcript": "second word go gets a negative 0.9 and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 33,
+    "transcript": "the second embedding gets 0.4",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 36,
+    "transcript": "and now we just do the math to get the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 38,
+    "transcript": "positional encoding for both words bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 42,
+    "transcript": "now because we're going to need all the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 45,
+    "transcript": "space we can get let's consolidate the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 47,
+    "transcript": "math in the diagram and let the sine and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 50,
+    "transcript": "cosine and plus symbols represent the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 52,
+    "transcript": "positional encoding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 54,
+    "transcript": "now that we know how to keep track of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 56,
+    "transcript": "each word's position let's talk about",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 12,
+    "seconds": 59,
+    "transcript": "how a Transformer keeps track of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 1,
+    "transcript": "relationships among words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 4,
+    "transcript": "for example if the input sentence was",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 7,
+    "transcript": "this the pizza came out of the oven and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 10,
+    "transcript": "it tasted good then this word it could",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 15,
+    "transcript": "refer to pizza or potentially it could",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 18,
+    "transcript": "refer to the word oven Josh I've heard",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 22,
+    "transcript": "of good tasting pizza but never a good",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 24,
+    "transcript": "tasting oven I know Squatch that's why",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 28,
+    "transcript": "it's important that the Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 29,
+    "transcript": "correctly Associates the word it with",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 32,
+    "transcript": "pizza the good news is that Transformers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 35,
+    "transcript": "have something called self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 37,
+    "transcript": "which is a mechanism to correctly",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 39,
+    "transcript": "associate the word ID with the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 41,
+    "transcript": "Pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 43,
+    "transcript": "in general terms self-attention works by",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 46,
+    "transcript": "seeing how similar each word is to all",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 48,
+    "transcript": "of the words in the sentence including",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 51,
+    "transcript": "itself for example self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 54,
+    "transcript": "calculates the similarity between the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 56,
+    "transcript": "first word the and all of the words in",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 13,
+    "seconds": 59,
+    "transcript": "the sentence including itself",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 2,
+    "transcript": "and self-attention calculates these",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 4,
+    "transcript": "similarities for every word in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 6,
+    "transcript": "sentence",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 7,
+    "transcript": "once the similarities are calculated",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 10,
+    "transcript": "they are used to determine how the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 12,
+    "transcript": "Transformer encodes each word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 15,
+    "transcript": "for example if you looked at a lot of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 17,
+    "transcript": "sentences about pizza and the word ID",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 19,
+    "transcript": "was more commonly associated with pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 22,
+    "transcript": "than oven",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 24,
+    "transcript": "then the similarity score for pizza will",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 26,
+    "transcript": "cause it to have a larger impact on how",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 28,
+    "transcript": "the word ID is encoded by the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 31,
+    "transcript": "Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 32,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 33,
+    "transcript": "and now that we know the main ideas of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 36,
+    "transcript": "how self-attention Works let's look at",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 38,
+    "transcript": "the details",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 39,
+    "transcript": "so let's go back to our simple example",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 41,
+    "transcript": "where we had just added positional",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 43,
+    "transcript": "encoding to the words let's and go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 47,
+    "transcript": "the first thing we do is multiply the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 49,
+    "transcript": "position encoded values for the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 51,
+    "transcript": "let's by a pair of weights and we add",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 54,
+    "transcript": "those products together to get Negative",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 57,
+    "transcript": "1.0",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 14,
+    "seconds": 58,
+    "transcript": "then we do the same thing with a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 0,
+    "transcript": "different pair of weights to get 3.7",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 4,
+    "transcript": "we do this twice because we started out",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 7,
+    "transcript": "with two position encoded values that",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 9,
+    "transcript": "represent the word leads and after doing",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 12,
+    "transcript": "the math two times we still have two",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 15,
+    "transcript": "values representing the word leads",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 17,
+    "transcript": "Josh I don't get it",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 20,
+    "transcript": "if we want two values to represent let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 22,
+    "transcript": "why don't we just use the two values we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 25,
+    "transcript": "started with",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 26,
+    "transcript": "that's a great question Squatch and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 29,
+    "transcript": "we'll answer it in a little bit grr",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 33,
+    "transcript": "anyway for now just know that we have",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 36,
+    "transcript": "these two new values to represent the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 38,
+    "transcript": "word let's and in Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 40,
+    "transcript": "terminology we call them query values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 43,
+    "transcript": "and now that we have query values for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 45,
+    "transcript": "the word let's use them to calculate the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 48,
+    "transcript": "similarity between itself and the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 50,
+    "transcript": "go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 52,
+    "transcript": "and we do this by creating two new",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 54,
+    "transcript": "values just like we did for the query to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 57,
+    "transcript": "represent the word let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 15,
+    "seconds": 59,
+    "transcript": "and we create two new values to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 1,
+    "transcript": "represent the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 3,
+    "transcript": "both sets of new values are called key",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 6,
+    "transcript": "values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 7,
+    "transcript": "and we use them to calculate",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 9,
+    "transcript": "similarities with the query for let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 13,
+    "transcript": "one way to calculate similarities",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 15,
+    "transcript": "between the query and the keys is to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 17,
+    "transcript": "calculate something called a DOT product",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 20,
+    "transcript": "for example in order to calculate the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 22,
+    "transcript": "dot product similarity between the query",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 25,
+    "transcript": "and key for let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 27,
+    "transcript": "we simply multiply each pair of numbers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 29,
+    "transcript": "together",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 30,
+    "transcript": "and then add the products to get 11.7",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 34,
+    "transcript": "likewise we can calculate the dot",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 37,
+    "transcript": "product similarity between the query for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 39,
+    "transcript": "let's and the key for go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 41,
+    "transcript": "by multiplying the pairs of numbers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 43,
+    "transcript": "together",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 45,
+    "transcript": "and adding the products to get negative",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 47,
+    "transcript": "2.6",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 49,
+    "transcript": "the relatively large similarity value",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 51,
+    "transcript": "for let's relative to itself",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 54,
+    "transcript": "11.7 compared to the relatively small",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 16,
+    "seconds": 57,
+    "transcript": "value for lets relative to the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 0,
+    "transcript": "negative 2.6",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 3,
+    "transcript": "tells us that let's is much more similar",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 5,
+    "transcript": "to itself than it is to the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 9,
+    "transcript": "that said if you remember the example",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 11,
+    "transcript": "where the word it could relate to pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 13,
+    "transcript": "or oven",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 15,
+    "transcript": "the word it should have a relatively",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 17,
+    "transcript": "large similarity value with respect to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 20,
+    "transcript": "the word Pizza since it refers to pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 22,
+    "transcript": "and not oven",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 25,
+    "transcript": "note there's a lot to be said about",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 27,
+    "transcript": "calculating similarities in this context",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 29,
+    "transcript": "and the dot product so if you're",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 31,
+    "transcript": "interested check out the quests anyway",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 34,
+    "transcript": "since let's is much more similar to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 36,
+    "transcript": "itself than it is to the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 39,
+    "transcript": "then we want let's to have more",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 41,
+    "transcript": "influence on its encoding than the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 43,
+    "transcript": "go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 45,
+    "transcript": "and we do this by first running the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 47,
+    "transcript": "similarities course through something",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 48,
+    "transcript": "called a soft Max function",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 51,
+    "transcript": "the main idea of a soft Max function is",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 54,
+    "transcript": "that it preserves the order of the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 56,
+    "transcript": "values from low to high and translates",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 17,
+    "seconds": 59,
+    "transcript": "them into numbers between 0 and 1 that",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 2,
+    "transcript": "add up to one",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 4,
+    "transcript": "so we can think of the output of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 6,
+    "transcript": "softmax function as a way to determine",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 8,
+    "transcript": "what percentage of each input word we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 11,
+    "transcript": "should use to encode the word let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 13,
+    "transcript": "in this case because let's is so much",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 16,
+    "transcript": "more similar to itself than the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 18,
+    "transcript": "we'll use one hundred percent of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 21,
+    "transcript": "word let's to encode less",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 23,
+    "transcript": "and zero percent of the word go to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 26,
+    "transcript": "encode the word let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 28,
+    "transcript": "note there's a lot more to be said about",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 30,
+    "transcript": "the soft Max function so if you're",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 32,
+    "transcript": "interested check out the quest",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 34,
+    "transcript": "anyway because we want 100 of the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 37,
+    "transcript": "let's to encode let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 40,
+    "transcript": "we create two more values that will",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 43,
+    "transcript": "cleverly call values to represent the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 46,
+    "transcript": "word let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 47,
+    "transcript": "and scale the values that represent",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 49,
+    "transcript": "let's by 1.0",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 51,
+    "transcript": "then we create two values to represent",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 54,
+    "transcript": "the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 55,
+    "transcript": "and scale those values by 0.0",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 18,
+    "seconds": 59,
+    "transcript": "lastly we add the scaled values together",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 2,
+    "transcript": "and these sums which combine separate",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 5,
+    "transcript": "encodings for both input words let's and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 8,
+    "transcript": "go relative to their similarity to Let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 10,
+    "transcript": "are the self-attention values for leads",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 13,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 15,
+    "transcript": "now that we have self-attention values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 18,
+    "transcript": "for the word let's it's time to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 20,
+    "transcript": "calculate them for the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 22,
+    "transcript": "the good news is that we don't need to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 25,
+    "transcript": "recalculate the keys and values instead",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 28,
+    "transcript": "all we need to do is create the query",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 31,
+    "transcript": "that represents the word go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 33,
+    "transcript": "and do the math",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 35,
+    "transcript": "by first calculating the similarity",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 37,
+    "transcript": "scores between the new query and the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 40,
+    "transcript": "keys and then run the similarity scores",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 42,
+    "transcript": "through a softmax",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 44,
+    "transcript": "and then scale the values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 47,
+    "transcript": "and then add them together",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 49,
+    "transcript": "and we end up with the self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 51,
+    "transcript": "values for go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 53,
+    "transcript": "note before we move on I want to point",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 56,
+    "transcript": "out a few details about self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 19,
+    "seconds": 59,
+    "transcript": "first the weights that we use to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 1,
+    "transcript": "calculate the self-attention queries are",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 3,
+    "transcript": "the exact same for let's and go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 6,
+    "transcript": "in other words this example uses one set",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 9,
+    "transcript": "of weights for calculating",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 11,
+    "transcript": "self-attention queries regardless of how",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 13,
+    "transcript": "many words are in the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 16,
+    "transcript": "likewise we reuse the sets of weights",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 18,
+    "transcript": "for calculating self-attention keys and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 21,
+    "transcript": "values for each input word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 23,
+    "transcript": "this means that no matter how many words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 26,
+    "transcript": "are input into the Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 28,
+    "transcript": "we just reuse the same sets of weights",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 31,
+    "transcript": "for self-attention queries keys and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 34,
+    "transcript": "values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 35,
+    "transcript": "the other thing I want to point out is",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 37,
+    "transcript": "that we can calculate the queries keys",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 39,
+    "transcript": "and values for each word at the same",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 42,
+    "transcript": "time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 43,
+    "transcript": "in other words we don't have to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 45,
+    "transcript": "calculate the query key and value for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 47,
+    "transcript": "the first word first before moving on to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 50,
+    "transcript": "the second word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 51,
+    "transcript": "and because we can do all of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 53,
+    "transcript": "computation at the same time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 55,
+    "transcript": "Transformers can take advantage of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 20,
+    "seconds": 58,
+    "transcript": "parallel Computing and run fast",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 1,
+    "transcript": "now that we understand the details of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 3,
+    "transcript": "how self-attention Works let's shrink it",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 5,
+    "transcript": "down so we can keep building our",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 7,
+    "transcript": "Transformer bam Josh you forgot",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 11,
+    "transcript": "something if we want two values to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 13,
+    "transcript": "represent let's why don't we just use",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 16,
+    "transcript": "the two position encoded values we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 18,
+    "transcript": "started with",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 19,
+    "transcript": "first the new self-attention values for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 22,
+    "transcript": "each word contain input from all of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 25,
+    "transcript": "other words and this helps give each",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 27,
+    "transcript": "word context and this can help establish",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 30,
+    "transcript": "how each word in the input is related to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 32,
+    "transcript": "the others",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 33,
+    "transcript": "also if we think of this unit with its",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 37,
+    "transcript": "weights for calculating queries keys and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 39,
+    "transcript": "values as a self-attention cell",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 42,
+    "transcript": "then in order to correctly establish how",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 45,
+    "transcript": "words are related in complicated",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 46,
+    "transcript": "sentences and paragraphs",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 49,
+    "transcript": "we can create a stack of self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 51,
+    "transcript": "cells each with its own sets of Weights",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 54,
+    "transcript": "that we apply to the position encoded",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 57,
+    "transcript": "values for each word to capture",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 21,
+    "seconds": 59,
+    "transcript": "different relationships among the words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 2,
+    "transcript": "in the manuscript that first describes",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 4,
+    "transcript": "Transformers they stacked eight",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 6,
+    "transcript": "self-attention cells and they called",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 8,
+    "transcript": "this multi-head attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 10,
+    "transcript": "why eight instead of 12 or 16 I have no",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 14,
+    "transcript": "idea",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 15,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 17,
+    "transcript": "okay going back to our simple example",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 20,
+    "transcript": "with only one self-attention cell",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 23,
+    "transcript": "there's one more thing we need to do to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 25,
+    "transcript": "encode the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 27,
+    "transcript": "we take the position encoded values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 30,
+    "transcript": "and add them to the self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 32,
+    "transcript": "values these bypasses are called",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 35,
+    "transcript": "residual connections and they make it",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 37,
+    "transcript": "easier to train complex neural networks",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 40,
+    "transcript": "by allowing the self-attention layer to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 43,
+    "transcript": "establish relationships among the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 45,
+    "transcript": "words without having to also preserve",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 47,
+    "transcript": "the word embedding and positioning",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 49,
+    "transcript": "coding information",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 51,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 52,
+    "transcript": "and that's all we need to do to encode",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 55,
+    "transcript": "the input for this simple Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 22,
+    "seconds": 58,
+    "transcript": "double bam note this simple Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 2,
+    "transcript": "only contains the parts required for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 4,
+    "transcript": "encoding the input word embedding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 7,
+    "transcript": "positional encoding self-attention and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 11,
+    "transcript": "residual connections",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 13,
+    "transcript": "these four features allow the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 15,
+    "transcript": "Transformer to encode words into numbers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 19,
+    "transcript": "encode the positions of the words encode",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 23,
+    "transcript": "the relationships among the words and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 26,
+    "transcript": "relatively easily and quickly train in",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 29,
+    "transcript": "parallel that said there are lots of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 32,
+    "transcript": "extra things we can add to a Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 34,
+    "transcript": "and we'll talk about those at the end of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 36,
+    "transcript": "this Quest bam so now that we've encoded",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 40,
+    "transcript": "the English input phrase let's go it's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 43,
+    "transcript": "time to decode it into Spanish",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 46,
+    "transcript": "in other words the first part of a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 49,
+    "transcript": "transformer is called an encoder and now",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 52,
+    "transcript": "it's time to create the second part A",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 54,
+    "transcript": "decoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 55,
+    "transcript": "the decoder just like the encoder starts",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 23,
+    "seconds": 58,
+    "transcript": "with word embedding however this time we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 2,
+    "transcript": "create embedding values for the output",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 4,
+    "transcript": "vocabulary which consists of the Spanish",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 6,
+    "transcript": "words ear vamos e and the EOS end of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 12,
+    "transcript": "sequence token",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 14,
+    "transcript": "now because we just finished encoding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 16,
+    "transcript": "the English sentence let's go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 19,
+    "transcript": "the decoder starts with embedding values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 21,
+    "transcript": "for the EOS token in this case we're",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 25,
+    "transcript": "using the EOS token to start the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 27,
+    "transcript": "decoding because that is a common way to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 30,
+    "transcript": "initialize the process of decoding the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 32,
+    "transcript": "encoded input sentence",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 34,
+    "transcript": "however sometimes you'll see people use",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 37,
+    "transcript": "SOS for startup sentence or start of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 40,
+    "transcript": "sequence to initialize the process",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 43,
+    "transcript": "Josh starting with SOS makes more sense",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 46,
+    "transcript": "to me then you can do it that way",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 48,
+    "transcript": "Squatch I'm just saying a lot of people",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 51,
+    "transcript": "start with EOS",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 53,
+    "transcript": "anyway we plug in 1 for Eos and zero for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 57,
+    "transcript": "everything else",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 24,
+    "seconds": 58,
+    "transcript": "and do the math",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 0,
+    "transcript": "and we end up with 2.70 and negative",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 4,
+    "transcript": "1.34 as the numbers that represent the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 7,
+    "transcript": "EOS token bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 10,
+    "transcript": "now let's shrink the word embedding down",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 12,
+    "transcript": "to make more space",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 14,
+    "transcript": "so that we can add the positional",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 16,
+    "transcript": "encoding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 17,
+    "transcript": "note these are the exact same sine and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 20,
+    "transcript": "cosine squiggles that we used when we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 22,
+    "transcript": "encoded the input and since the EOS",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 25,
+    "transcript": "token is in the first position with two",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 28,
+    "transcript": "embeddings we just add those two",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 30,
+    "transcript": "position values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 31,
+    "transcript": "and we get 2.70 and negative 0.34 as the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 36,
+    "transcript": "position and word embedding values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 38,
+    "transcript": "representing the EOS token bam now let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 42,
+    "transcript": "consolidate the math in the diagram",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 45,
+    "transcript": "and before we move on to the next step",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 47,
+    "transcript": "let's review a key concept from when we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 50,
+    "transcript": "encoded the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 51,
+    "transcript": "one key concept from earlier was that we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 54,
+    "transcript": "created a single unit to process an",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 56,
+    "transcript": "input word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 25,
+    "seconds": 58,
+    "transcript": "and then we just copied that unit for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 0,
+    "transcript": "each word in the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 2,
+    "transcript": "and if we had more words we just make",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 4,
+    "transcript": "more copies of the same unit",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 7,
+    "transcript": "by creating a single unit that can be",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 9,
+    "transcript": "copied for each input word the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 12,
+    "transcript": "Transformer can do all of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 14,
+    "transcript": "computation for each word in the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 16,
+    "transcript": "at the same time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 18,
+    "transcript": "for example we can calculate the word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 20,
+    "transcript": "embeddings on different processors at",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 22,
+    "transcript": "the same time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 24,
+    "transcript": "and then add the positional encoding at",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 26,
+    "transcript": "the same time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 28,
+    "transcript": "and then calculate the queries keys and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 30,
+    "transcript": "values at the same time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 33,
+    "transcript": "and once that is done we can calculate",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 35,
+    "transcript": "the self-attention values at the same",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 38,
+    "transcript": "time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 39,
+    "transcript": "and lastly we can calculate the residual",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 42,
+    "transcript": "connections at the same time",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 44,
+    "transcript": "doing all of the computations at the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 47,
+    "transcript": "same time rather than doing them",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 49,
+    "transcript": "sequentially for each word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 51,
+    "transcript": "means we can process a lot of words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 53,
+    "transcript": "relatively quickly on a chip with a lot",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 56,
+    "transcript": "of computing cores like a GPU Graphics",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 26,
+    "seconds": 59,
+    "transcript": "Processing Unit or multiple chips in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 2,
+    "transcript": "cloud",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 3,
+    "transcript": "well likewise when we decode and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 6,
+    "transcript": "translate the input we want a single",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 8,
+    "transcript": "unit that we can copy for each",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 10,
+    "transcript": "translated word for the same reasons we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 12,
+    "transcript": "want to do the math quickly",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 15,
+    "transcript": "so even though we're only processing the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 18,
+    "transcript": "EOS token so far we add a self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 21,
+    "transcript": "layer so that ultimately we can keep",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 24,
+    "transcript": "track of related words in the output",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 27,
+    "transcript": "now that we have the query key and value",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 30,
+    "transcript": "numbers for the EOS token we calculate",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 33,
+    "transcript": "itself attention values just like before",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 36,
+    "transcript": "and the self-attention values for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 38,
+    "transcript": "EOS token are negative 2.8 and negative",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 41,
+    "transcript": "2.3 note the sets of Weights we used to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 46,
+    "transcript": "calculate the decoder self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 48,
+    "transcript": "query key and value are different from",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 50,
+    "transcript": "the sets we used in the encoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 53,
+    "transcript": "now let's consolidate the math and add",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 56,
+    "transcript": "residual connections just like before",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 27,
+    "seconds": 59,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 1,
+    "transcript": "now so far we've talked about how",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 3,
+    "transcript": "self-attention helps the Transformer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 5,
+    "transcript": "keep track of how words are related",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 7,
+    "transcript": "within a sentence",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 9,
+    "transcript": "however since We're translating a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 12,
+    "transcript": "sentence we also need to keep track of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 14,
+    "transcript": "the relationships between the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 16,
+    "transcript": "sentence and the output",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 18,
+    "transcript": "for example if the input sentence was",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 22,
+    "transcript": "don't eat the delicious looking and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 25,
+    "transcript": "smelling pizza then when translating",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 28,
+    "transcript": "it's super important to keep track of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 31,
+    "transcript": "the very first word don't",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 33,
+    "transcript": "if the translation focuses on other",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 36,
+    "transcript": "parts of the sentence and omits the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 38,
+    "transcript": "don't then we'll end up with",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 40,
+    "transcript": "eat the delicious looking and smelling",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 43,
+    "transcript": "Pizza",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 44,
+    "transcript": "and these two sentences have completely",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 46,
+    "transcript": "opposite meanings",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 48,
+    "transcript": "so it's super important for the decoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 51,
+    "transcript": "to keep track of the significant words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 53,
+    "transcript": "in the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 54,
+    "transcript": "so the main idea of encoder decoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 28,
+    "seconds": 57,
+    "transcript": "attention is to allow the decoder to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 0,
+    "transcript": "keep track of the significant words in",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 2,
+    "transcript": "the input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 4,
+    "transcript": "now that we know the main idea behind",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 6,
+    "transcript": "encoder decoder attention here are the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 9,
+    "transcript": "details",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 10,
+    "transcript": "first to give us a little more room",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 13,
+    "transcript": "let's consolidate the math and the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 15,
+    "transcript": "diagrams",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 16,
+    "transcript": "now just like we did for self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 18,
+    "transcript": "we create two new values to represent",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 21,
+    "transcript": "the query for the EOS token in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 24,
+    "transcript": "decoder then we create keys for each",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 27,
+    "transcript": "word in the encoder and we calculate the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 30,
+    "transcript": "similarities between the EOS token in",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 33,
+    "transcript": "the decoder and each word in the encoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 36,
+    "transcript": "by calculating the dot products just",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 39,
+    "transcript": "like before",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 40,
+    "transcript": "then we run the similarities through a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 42,
+    "transcript": "softmax function and this tells us to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 45,
+    "transcript": "use one hundred percent of the first",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 47,
+    "transcript": "input word and zero percent of the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 50,
+    "transcript": "second when the decoder determines what",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 53,
+    "transcript": "should be the first translated word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 56,
+    "transcript": "now that we know what percentage of each",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 29,
+    "seconds": 58,
+    "transcript": "input word to use when determining what",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 1,
+    "transcript": "should be the first translated word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 3,
+    "transcript": "we calculate values for each input word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 7,
+    "transcript": "and then scale those values by the soft",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 9,
+    "transcript": "Max percentages",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 11,
+    "transcript": "and then add the pairs of scaled values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 14,
+    "transcript": "together to get the encoder decoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 16,
+    "transcript": "attention values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 18,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 19,
+    "transcript": "now to make room for the next step let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 22,
+    "transcript": "consolidate the encoder decoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 24,
+    "transcript": "attention in our diagram",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 26,
+    "transcript": "note the sets of Weights that we use to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 28,
+    "transcript": "calculate the queries keys and values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 31,
+    "transcript": "for encoder decoder attention are",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 33,
+    "transcript": "different from the sets of Weights we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 35,
+    "transcript": "use for self-attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 37,
+    "transcript": "however just like for self-attention the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 40,
+    "transcript": "sets of Weights are copied and reused",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 42,
+    "transcript": "for each word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 44,
+    "transcript": "this allows the Transformer to be",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 46,
+    "transcript": "flexible with the length of the inputs",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 48,
+    "transcript": "and outputs",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 50,
+    "transcript": "and also we can stack encode or decoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 53,
+    "transcript": "attention just like we can stack",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 55,
+    "transcript": "self-attention to keep track of words in",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 30,
+    "seconds": 58,
+    "transcript": "complicated phrases bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 1,
+    "transcript": "now we add another set of residual",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 3,
+    "transcript": "connections",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 4,
+    "transcript": "that allow the encoder decoder attention",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 7,
+    "transcript": "to focus on the relationships between",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 9,
+    "transcript": "the output words and the input words",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 11,
+    "transcript": "without having to preserve the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 13,
+    "transcript": "self-attention or word and position",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 15,
+    "transcript": "encoding that happened earlier then we",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 19,
+    "transcript": "consolidate the math and the diagram",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 21,
+    "transcript": "lastly we need a way to take these two",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 24,
+    "transcript": "values that represent the EOS token in",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 27,
+    "transcript": "the decoder and select one of the four",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 30,
+    "transcript": "output tokens ear vamos e or EOS",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 35,
+    "transcript": "so we run these two values through a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 37,
+    "transcript": "fully connected layer that has one input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 39,
+    "transcript": "for each value that represents the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 41,
+    "transcript": "current token so in this case we have",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 44,
+    "transcript": "two inputs",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 45,
+    "transcript": "and one output for each token in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 48,
+    "transcript": "output vocabulary which in this case",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 50,
+    "transcript": "means four outputs",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 52,
+    "transcript": "note a fully connected layer is just a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 55,
+    "transcript": "simple neural network with weights",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 31,
+    "seconds": 57,
+    "transcript": "numbers we multiply the inputs by",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 0,
+    "transcript": "and biases numbers we add to the sums of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 3,
+    "transcript": "the products",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 4,
+    "transcript": "and when we do the math we get four",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 7,
+    "transcript": "output values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 8,
+    "transcript": "which we run through a final soft Max",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 11,
+    "transcript": "function to select the first output word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 13,
+    "transcript": "vamos",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 15,
+    "transcript": "bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 17,
+    "transcript": "note vamos is the Spanish translation",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 20,
+    "transcript": "for Let's Go triple boom no not yet",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 25,
+    "transcript": "so far the translation is correct but",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 28,
+    "transcript": "the decoder doesn't stop until it",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 30,
+    "transcript": "outputs an EOS token so let's",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 34,
+    "transcript": "consolidate our diagrams",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 36,
+    "transcript": "and plug the translated word vamos into",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 39,
+    "transcript": "a copy of the decoder's embedding layer",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 41,
+    "transcript": "and do the math",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 43,
+    "transcript": "first we get the word embeddings for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 45,
+    "transcript": "vamos",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 47,
+    "transcript": "then we add the positional encoding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 50,
+    "transcript": "now we calculate self-attention values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 52,
+    "transcript": "for vamos using the exact same weights",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 54,
+    "transcript": "that we used for the EOS token",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 32,
+    "seconds": 57,
+    "transcript": "now add the residual connections",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 0,
+    "transcript": "and calculate the encoder decoder",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 2,
+    "transcript": "attention using the same sets of Weights",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 5,
+    "transcript": "that we used for the EOS token",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 7,
+    "transcript": "now we add more residual connections",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 10,
+    "transcript": "lastly we run the values that represent",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 13,
+    "transcript": "vamos through the same fully connected",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 15,
+    "transcript": "layer and softmax that we used for the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 17,
+    "transcript": "EOS token and the second output from the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 21,
+    "transcript": "decoder is eos so we are done decoding",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 25,
+    "transcript": "triple bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 27,
+    "transcript": "at long last we've shown how a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 30,
+    "transcript": "Transformer can encode a simple input",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 32,
+    "transcript": "phrase let's go",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 34,
+    "transcript": "and decode the encoding into the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 37,
+    "transcript": "translated phrase of vamos",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 40,
+    "transcript": "in summary",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 41,
+    "transcript": "Transformers use word embedding to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 44,
+    "transcript": "convert words into numbers",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 46,
+    "transcript": "positional encoding to keep track of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 48,
+    "transcript": "word order",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 50,
+    "transcript": "self-attention to keep track of word",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 52,
+    "transcript": "relationships within the input and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 54,
+    "transcript": "output phrases",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 56,
+    "transcript": "encoder decoder attention to keep track",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 33,
+    "seconds": 59,
+    "transcript": "of things between the input and output",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 1,
+    "transcript": "phrases to make sure that important",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 3,
+    "transcript": "words in the input are not lost in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 5,
+    "transcript": "translation",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 7,
+    "transcript": "and residual connections to allow each",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 9,
+    "transcript": "subunit like self-attention to focus on",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 12,
+    "transcript": "solving just one part of the problem",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 15,
+    "transcript": "now that we understand the main ideas of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 18,
+    "transcript": "how Transformers work let's talk about a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 20,
+    "transcript": "few extra things we can add to them",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 22,
+    "transcript": "in this example we kept things super",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 25,
+    "transcript": "simple",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 26,
+    "transcript": "however if we had larger vocabularies",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 29,
+    "transcript": "and the original Transformer had 37 000",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 31,
+    "transcript": "tokens and longer input and output",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 34,
+    "transcript": "phrases",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 35,
+    "transcript": "then in order to get their model to work",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 37,
+    "transcript": "they had to normalize the values after",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 40,
+    "transcript": "every step",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 41,
+    "transcript": "for example they normalize the values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 44,
+    "transcript": "after positional encoding and after",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 46,
+    "transcript": "self-attention in both the encoder and",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 48,
+    "transcript": "the decoder also when we calculated",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 51,
+    "transcript": "attention values we used the dot product",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 54,
+    "transcript": "to calculate the similarities but you",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 57,
+    "transcript": "can use whatever similarity function you",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 34,
+    "seconds": 59,
+    "transcript": "want",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 0,
+    "transcript": "in the original Transformer manuscript",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 2,
+    "transcript": "they calculated the similarities with a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 5,
+    "transcript": "DOT product divided by the square root",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 7,
+    "transcript": "of the number of embedding values per",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 9,
+    "transcript": "token just like with scaling the values",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 12,
+    "transcript": "after each step they found that scaling",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 14,
+    "transcript": "the dot product helped encode and decode",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 16,
+    "transcript": "long and complicated phrases",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 19,
+    "transcript": "lastly to give a Transformer more",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 22,
+    "transcript": "weights and biases to fit to complicated",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 24,
+    "transcript": "data you can add additional neural",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 26,
+    "transcript": "networks with hidden layers to both the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 28,
+    "transcript": "encoder and decoder bam",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 31,
+    "transcript": "now it's time for some",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 34,
+    "transcript": "Shameless self-promotion if you want to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 37,
+    "transcript": "review statistics and machine learning",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 39,
+    "transcript": "offline check out the statquest PDF",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 41,
+    "transcript": "study guides in my book the stat Quest",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 44,
+    "transcript": "Illustrated guide to machine learning at",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 47,
+    "transcript": "stackwest.org there's something for",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 49,
+    "transcript": "everyone",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 50,
+    "transcript": "hooray we've made it to the end of",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 52,
+    "transcript": "another exciting stat Quest if you like",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 55,
+    "transcript": "this stack Quest and want to see more",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 56,
+    "transcript": "please subscribe and if you want to",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 35,
+    "seconds": 58,
+    "transcript": "support stackquest consider contributing",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 36,
+    "seconds": 1,
+    "transcript": "to my patreon campaign becoming a",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 36,
+    "seconds": 3,
+    "transcript": "channel member buying one or two of my",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 36,
+    "seconds": 5,
+    "transcript": "original songs or a t-shirt or a hoodie",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 36,
+    "seconds": 7,
+    "transcript": "or just donate the links are in the",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 36,
+    "seconds": 10,
+    "transcript": "description below alright until next",
+    "url": "zxQyTK8quyY"
+  },
+  {
+    "minutes": 36,
+    "seconds": 12,
+    "transcript": "time Quest on",
+    "url": "zxQyTK8quyY"
+  }
+]

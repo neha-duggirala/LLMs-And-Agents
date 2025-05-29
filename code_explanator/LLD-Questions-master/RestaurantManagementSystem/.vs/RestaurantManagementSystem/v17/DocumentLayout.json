@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\roles\\receptionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\roles\\receptionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\restaurant\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\restaurant\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\restaurant\\restaurantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\restaurant\\restaurantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\restaurant\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\restaurant\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\roles\\waiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\roles\\waiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\actions\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\actions\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\entities.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\entities.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\roles\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\roles\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\restaurant\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\restaurant\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\restaurantmanagementsystem\\restaurantmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31777BFF-5077-4A3B-B598-BABCACE0569D}|RestaurantManagementSystem\\RestaurantManagementSystem.csproj|solutionrelative:restaurantmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 323,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Tests\\Test1.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Tests\\Test1.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Tests\\Test1.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Tests\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T12:17:48.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestaurantManager.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\RestaurantManager.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Restaurant\\RestaurantManager.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\RestaurantManager.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Restaurant\\RestaurantManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:53:37.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Receptionist.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Roles\\Receptionist.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Roles\\Receptionist.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Roles\\Receptionist.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Roles\\Receptionist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:07:30.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\Restaurant.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Restaurant\\Restaurant.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\Restaurant.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Restaurant\\Restaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:10:54.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\Branch.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Restaurant\\Branch.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\Branch.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Restaurant\\Branch.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:13:15.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Actions\\Reservation.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Actions\\Reservation.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Actions\\Reservation.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Actions\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:59:58.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Roles\\Customer.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Roles\\Customer.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Roles\\Customer.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Roles\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:43:39.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Waiter.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Roles\\Waiter.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Roles\\Waiter.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Roles\\Waiter.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Roles\\Waiter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:46:11.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\Menu.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Restaurant\\Menu.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Restaurant\\Menu.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Restaurant\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:30:29.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Program.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Program.cs",
+              "RelativeToolTip": "RestaurantManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T05:23:04.953Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 77,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entities.txt",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Entities.txt",
+              "RelativeDocumentMoniker": "RestaurantManagementSystem\\Entities.txt",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\RestaurantManagementSystem\\RestaurantManagementSystem\\Entities.txt",
+              "RelativeToolTip": "RestaurantManagementSystem\\Entities.txt",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-24T05:28:20.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+// Original Path: code_explanator/LLD-Questions-master/RestaurantManagementSystem/RestaurantManagementSystem/Program.cs
+
+﻿using System;
+
+namespace RestaurantManagementSystem
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}

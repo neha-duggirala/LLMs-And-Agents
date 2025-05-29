@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\locations\\loggertarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\locations\\loggertarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\contract\\abstractlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\contract\\abstractlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\loggertypes\\infologger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\loggertypes\\infologger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\loggertypes\\debuglogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\loggertypes\\debuglogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\locations\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\locations\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\locations\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\locations\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\loggertypes\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\loggertypes\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\locations\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\locations\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\loggingframework\\loggingframework\\contract\\ilogobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF4774A-BED6-4D98-9E8B-88CD3148B089}|LoggingFramework\\LoggingFramework.csproj|solutionrelative:loggingframework\\contract\\ilogobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LogManager.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\LogManager.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LogManager.cs",
+              "RelativeToolTip": "LoggingFramework\\LogManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:37:48.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsoleLogger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\ConsoleLogger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Locations\\ConsoleLogger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\ConsoleLogger.cs",
+              "RelativeToolTip": "LoggingFramework\\Locations\\ConsoleLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:10:08.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorLogger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LoggerTypes\\ErrorLogger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\LoggerTypes\\ErrorLogger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LoggerTypes\\ErrorLogger.cs",
+              "RelativeToolTip": "LoggingFramework\\LoggerTypes\\ErrorLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:20:18.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbstractLogger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Contract\\AbstractLogger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Contract\\AbstractLogger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Contract\\AbstractLogger.cs",
+              "RelativeToolTip": "LoggingFramework\\Contract\\AbstractLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:11:28.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DebugLogger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LoggerTypes\\DebugLogger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\LoggerTypes\\DebugLogger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LoggerTypes\\DebugLogger.cs",
+              "RelativeToolTip": "LoggingFramework\\LoggerTypes\\DebugLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:19:33.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Program.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Program.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Program.cs",
+              "RelativeToolTip": "LoggingFramework\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:02:15.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfoLogger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LoggerTypes\\InfoLogger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\LoggerTypes\\InfoLogger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\LoggerTypes\\InfoLogger.cs",
+              "RelativeToolTip": "LoggingFramework\\LoggerTypes\\InfoLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:17:30.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoggerTarget.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\LoggerTarget.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Locations\\LoggerTarget.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\LoggerTarget.cs",
+              "RelativeToolTip": "LoggingFramework\\Locations\\LoggerTarget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:13:09.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBLogger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\DBLogger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Locations\\DBLogger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\DBLogger.cs",
+              "RelativeToolTip": "LoggingFramework\\Locations\\DBLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:11:34.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Logger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Logger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Logger.cs",
+              "RelativeToolTip": "LoggingFramework\\Logger.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:43:54.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\FileLogger.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Locations\\FileLogger.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Locations\\FileLogger.cs",
+              "RelativeToolTip": "LoggingFramework\\Locations\\FileLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:10:45.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ILogObserver.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Contract\\ILogObserver.cs",
+              "RelativeDocumentMoniker": "LoggingFramework\\Contract\\ILogObserver.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\LoggingFramework\\LoggingFramework\\Contract\\ILogObserver.cs",
+              "RelativeToolTip": "LoggingFramework\\Contract\\ILogObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:09:12.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

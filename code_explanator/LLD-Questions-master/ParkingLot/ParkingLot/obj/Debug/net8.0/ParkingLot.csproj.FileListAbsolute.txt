@@ -1,0 +1,14 @@
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ParkingLot.GeneratedMSBuildEditorConfig.editorconfig
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ParkingLot.AssemblyInfoInputs.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ParkingLot.AssemblyInfo.cs
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ParkingLot.csproj.CoreCompileInputs.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\bin\Debug\net8.0\ParkingLot.exe
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\bin\Debug\net8.0\ParkingLot.deps.json
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\bin\Debug\net8.0\ParkingLot.runtimeconfig.json
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\bin\Debug\net8.0\ParkingLot.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\bin\Debug\net8.0\ParkingLot.pdb
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ParkingLot.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\refint\ParkingLot.dll
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ParkingLot.pdb
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ParkingLot.genruntimeconfig.cache
+D:\pavanbackup\pavanbackup\striverssdesheet\LowLevelSystemDesign\LLDQuestions\ParkingLot\ParkingLot\obj\Debug\net8.0\ref\ParkingLot.dll

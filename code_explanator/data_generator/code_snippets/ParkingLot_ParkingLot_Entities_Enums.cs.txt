@@ -1,0 +1,14 @@
+// Original Path: code_explanator/LLD-Questions-master/ParkingLot/ParkingLot/Entities/Enums.cs
+
+﻿public enum VehicleType
+{
+    MotorCycle = 1,
+    Car = 2,
+    Truck = 3,
+}
+public enum SlotStatus
+{
+    Reserved,
+    Unreserved,
+    OutOfService,
+}

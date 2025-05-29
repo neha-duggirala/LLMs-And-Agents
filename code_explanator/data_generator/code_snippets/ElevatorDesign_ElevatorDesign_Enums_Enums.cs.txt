@@ -1,0 +1,13 @@
+// Original Path: code_explanator/LLD-Questions-master/ElevatorDesign/ElevatorDesign/Enums/Enums.cs
+
+﻿public enum CarDirection
+{
+    Up,
+    Down,
+    Neutral
+}
+public enum FloorButtonDirection
+{
+    Up,
+    Down
+}

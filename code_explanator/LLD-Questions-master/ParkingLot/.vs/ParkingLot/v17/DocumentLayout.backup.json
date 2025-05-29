@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\entities\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\entities\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\strategy\\loosesearchassign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\strategy\\loosesearchassign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\test\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\test\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\entities\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\entities\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\entities\\parkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\entities\\parkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\entities\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\entities\\gate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\strategy\\isearchassignstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\strategy\\isearchassignstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|d:\\pavanbackup\\pavanbackup\\striverssdesheet\\lowlevelsystemdesign\\lldquestions\\parkinglot\\parkinglot\\entities\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA5821A-EE88-4D27-8FA2-254F29B2F9EA}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\entities\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 169,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Test\\Test1.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Test\\Test1.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Test\\Test1.cs",
+              "RelativeToolTip": "ParkingLot\\Test\\Test1.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwE8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T07:06:09.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gate.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Gate.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Entities\\Gate.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Gate.cs",
+              "RelativeToolTip": "ParkingLot\\Entities\\Gate.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T06:05:17.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Entities\\Vehicle.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "ParkingLot\\Entities\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:52:32.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Enums.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Entities\\Enums.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Enums.cs",
+              "RelativeToolTip": "ParkingLot\\Entities\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:51:30.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LooseSearchAssign.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Strategy\\LooseSearchAssign.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Strategy\\LooseSearchAssign.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Strategy\\LooseSearchAssign.cs",
+              "RelativeToolTip": "ParkingLot\\Strategy\\LooseSearchAssign.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wBgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:50:06.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParkingLot.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\ParkingLot.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Entities\\ParkingLot.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\ParkingLot.cs",
+              "RelativeToolTip": "ParkingLot\\Entities\\ParkingLot.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAApwC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:18:52.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Level.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Level.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Entities\\Level.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Level.cs",
+              "RelativeToolTip": "ParkingLot\\Entities\\Level.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:32:56.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Slot.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Slot.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Entities\\Slot.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Entities\\Slot.cs",
+              "RelativeToolTip": "ParkingLot\\Entities\\Slot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:34:13.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISearchAssignStrategy.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Strategy\\ISearchAssignStrategy.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Strategy\\ISearchAssignStrategy.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Strategy\\ISearchAssignStrategy.cs",
+              "RelativeToolTip": "ParkingLot\\Strategy\\ISearchAssignStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:49:41.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Program.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Program.cs",
+              "ToolTip": "D:\\pavanbackup\\pavanbackup\\striverssdesheet\\LowLevelSystemDesign\\LLDQuestions\\ParkingLot\\ParkingLot\\Program.cs",
+              "RelativeToolTip": "ParkingLot\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T05:17:21.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
